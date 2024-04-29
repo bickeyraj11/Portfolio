@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>website</title>
+</head>
+<body>
+
+    <header id="header">
+        <nav>
+            <div class="container flexDisplay">
+                <div class="ab">
+                <div class="navLogo">
+                    <a href="#heroSection"><h1><span>W</span>elcome !! <span>m</span>y <span>P</span>rofile</h1></a>
+                    </div> 
+
+                <div class="navMenu">
+                <ul class="flexDisplay">
+                    <li><a href="#heroSection" class="navMenuItem navActive">Home</a></li>
+                    <li><a href="#aboutSection" class="navMenuItem">About</a></li>
+                    <li><a href="#skillsSection" class="navMenuItem">Skills</a></li>
+                    <li><a href="#contactSection" class="navMenuItem">contact</a></li>
+                </ul>
+                </div>
+                </div>
+                <div class="navBtn">
+                    <button class="toggleBtn" onclick="modeToggle()">
+                        <img src="lightmode.svg">
+                        <img src="darkmode.svg">
+                    </button>
+                </div>
+            </div>
+            <div class="hamburger"></div>
+        </nav>
+    </header>
+
+    <section id="heroSection" class="container flexDisplay">
+        <div class="left">
+            <div class="position"><h3>Software Engineer</h3></div>
+            <div class="name"><h1><span>B</span>ickey<span> R</span>aj</h1></div>
+            <div class="about">Passionate Web developer with a flair for innovation, crafting digital experirnce that 
+                captivate and empower users. Let's build something amazing together.</div>
+                <div class="btns">
+                    <button><a download target="_blank" href="cv.png">Download cv</a></button>
+                    <button><a href="#contactSection" class="hireMe">Hire Me Now</a></button>
+                </div>
+            </div>
+        
+        <div class="right">
+            <div class="circle">
+                <div class="imageBox">
+                    <img src="image.png">
+                </div>
+            </div>
+        </div>
+        <div class="links">
+            <a href="https://www.facebook.com/"><img src="facebook.svg"></a>
+            <a href="https://www.linkedin.com/login"><img src="linkedin.svg"></a>
+        </div>
+    </section>
+
+    <section id="aboutSection" class="container flexDisplay">
+        <div class="heading"><h1><span>A</span>bout Me</h1></div>
+        <div class="left">
+            <div class="aboutImg"><img src="about.jpg"></div>
+        </div>
+        <div class="right">
+            <div class="aboutContent">
+                <p>Experirnced <span>Web Developer</span> with a strong  focus on Website development, processing as a freshers .Proficient in <span>HTML</span>,<span>CSS</span>,<span>C , C++ , JAVA with DSA</span></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skillsSection" class="container flexDisplay">
+        <div class="heading"><h1>Skills</h1></div>
+        <div class="skills">
+            <div class="skill flexDisplay">
+                <h1>Html</h1>
+                <h1 class="label">Advanced</h1>
+                <div class="progressBar"></div>
+                <h1 class="percentage">90%</h1>
+            </div>
+            <div class="skill flexDisplay">
+                <h1>Css</h1>
+                <h1 class="label">Intermediate</h1>
+                <div class="progressBar"></div>
+                <h1 class="percentage">80%</h1>
+            </div>
+            <div class="skill flexDisplay">
+                <h1>JavaScript</h1>
+                <h1 class="label">Intermediate</h1>
+                <div class="progressBar"></div>
+                <h1 class="percentage">60%</h1>
+            </div>
+            <div class="skill flexDisplay">
+                <h1>C</h1>
+                <h1 class="label">Advanced</h1>
+                <div class="progressBar"></div>
+                <h1 class="percentage">90%</h1>
+            </div>
+            <div class="skill flexDisplay">
+                <h1>C++</h1>
+                <h1 class="label">Advanced</h1>
+                <div class="progressBar"></div>
+                <h1 class="percentage">80%</h1>
+            </div>
+            <div class="skill flexDisplay">
+                <h1>Java</h1>
+                <h1 class="label">Intermediate</h1>
+                <div class="progressBar"></div>
+                <h1 class="percentage">65%</h1>
+            </div>
+            <div class="skill flexDisplay">
+                <h1>Python</h1>
+                <h1 class="label">Intermediate</h1>
+                <div class="progressBar"></div>
+                <h1 class="percentage">60%</h1>
+            </div> 
+
+        </div>
+    </section>
+
+    <section id="contactSection" class="container flexDisplay">
+        <div class="heading"><h1>Contact Me</h1></div>
+        <form id="dontact_form" class="flexDisplay" action="" method="post">
+            <input type="text" name="name" placeholder="enter your name...." required>
+            <input type="email" name="email" placeholder="enter your email..." required>
+            <input type="text" name="number" placeholder="enter your phone number...." required>
+            <textarea name="message" cols="30" rows="6" placeholder="Your message"></textarea>
+            <div class="btns">
+                <button type="submit"><a>Send</a></button>
+            </div>
+
+        </form>
+    </section>
+
+    <footer id="footer">
+        <p>&copy; Bickey Raj || All Right Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
